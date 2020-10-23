@@ -1,0 +1,29 @@
+{
+  "name": "us-map-test",
+  "version": "1.0.0",
+  "description": "template for US county map",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start -s -f index.html src --no-ui --no-notify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emma-r-slight/US-map-test.git"
+  },
+  "keywords": [
+    "d3",
+    "template",
+    "map",
+    "usa"
+  ],
+  "author": "EMMA, thanks to mike bostock",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emma-r-slight/US-map-test/issues"
+  },
+  "homepage": "https://github.com/emma-r-slight/US-map-test#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.13"
+  }
+}
