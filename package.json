@@ -4,10 +4,7 @@
   "description": "template for US county map",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
-    "dev": "nodemon index",
-    "knex": "knex",
-    "test": "jest --watch --noStackTrace"
+    "start": "browser-sync start -s -f index.html src --no-ui --no-notify"
   },
   "repository": {
     "type": "git",
@@ -25,12 +22,8 @@
     "url": "https://github.com/emma-r-slight/US-map-test/issues"
   },
   "homepage": "https://github.com/emma-r-slight/US-map-test#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "jest": "^26.0.1",
-    "nodemon": "^2.0.4",
-    "supertest": "^4.0.2"
+    "browser-sync": "^2.26.13"
   }
 }
